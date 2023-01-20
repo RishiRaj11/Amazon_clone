@@ -1,0 +1,20 @@
+.product{
+    display: flex;
+    flex-direction: column;
+}
+.product_info{
+    height: 100px;
+    margin-bottom: 15px;
+}
+.product__rating{
+    display: flex;
+}
+.product_price{
+    margin-top: 5px;
+}
+.product>img{
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
